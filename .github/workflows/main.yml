@@ -7,7 +7,6 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/DevOps-Assessment@v2
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
